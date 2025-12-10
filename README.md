@@ -21,20 +21,24 @@ cd ads-app
 
 2. Install dependencies:
 
+```bash
 composer install
 npm install
 npm run dev
 
 3. Copy .env and configure your local database:
 
+```bash
 cp .env.example .env
 
 4. Run migrations and seed the main admin:
 
+```bash
 php artisan migrate --seed
 
 5. Start the local development server:
 
+```bash
 php artisan serve
 
 Default admin login:
